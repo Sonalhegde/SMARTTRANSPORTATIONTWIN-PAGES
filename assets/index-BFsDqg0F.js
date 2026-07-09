@@ -4142,7 +4142,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         <p>CSD provides a multidisciplinary setting for connecting physical infrastructure, embedded sensing, communication networks, computation and system-level design. This digital twin demonstrates that approach through synchronized transport, factory and IoT subsystems.</p>
     `,r.body.append(i,o);let s=Sb(`Project repository`);return s.body.innerHTML=`
         <p>Source code, installation instructions, architecture notes and development history are available on GitHub.</p>
-        <p><a class="doc-repository-link" href="https://github.com/Sonalhegde/SMARTTRANSPORTATIONTWIN/tree/main" target="_blank" rel="noopener noreferrer">github.com/Sonalhegde/SMARTTRANSPORTATIONTWIN</a></p>
+        <p><a class="doc-repository-link" href="https://github.com/Sonalhegde/SMARTTRANSPORTATIONTWIN-PAGES" target="_blank" rel="noopener noreferrer">github.com/Sonalhegde/SMARTTRANSPORTATIONTWIN-PAGES</a></p>
     `,e.append(t.card,n.card,r.card,s.card),e}function Sb(e){let t=document.createElement(`article`);t.className=`documentation-card glass-panel`;let n=document.createElement(`h2`);n.textContent=e;let r=document.createElement(`div`);return r.className=`documentation-card-body`,t.append(n,r),{card:t,body:r}}function Cb(){let e=document.getElementById(`app`);if(!e||e.querySelector(`.scene-hud-frame`))return;let t=document.createElement(`div`);t.className=`scene-hud-frame`,t.setAttribute(`aria-hidden`,`true`),t.innerHTML=`
         <span class="scene-hud-label">LIVE TRANSPORT NETWORK</span>
         <span class="scene-hud-corner scene-hud-corner-tl"></span>
